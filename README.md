@@ -4,7 +4,13 @@ A tiny single-file canvas game. You pilot a ship around a planet and dodge incom
 
 ## Play
 
-Open `index.html` in any modern browser. No build step or dependencies.
+The game uses ES modules, which browsers block over `file://`, so serve the folder locally:
+
+```
+python -m http.server 8000
+```
+
+Then open http://localhost:8000. No build step or dependencies.
 
 ## Controls
 
